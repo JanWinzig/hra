@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dyv386kmp0qoc"]
+
+[ext_resource type="Texture2D" uid="uid://cixdj0ms55ydk" path="res://Textury/New Piskel-1.png.png" id="1_ce50c"]
+
+[node name="Node2D" type="Node2D" unique_id=1048729075]
+
+[node name="Parallax2D" type="Parallax2D" parent="." unique_id=799335837]
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D" unique_id=1257785552]
+physics_interpolation_mode = 2
+position = Vector2(160, 90.00001)
+scale = Vector2(0.99999994, 1)
+texture = ExtResource("1_ce50c")
